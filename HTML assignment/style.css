@@ -1,3 +1,6 @@
+:root{
+    --color: #9d2a5c
+}
 h1, h2, h3, h4, h5, form
 {
 font-family: "comic sans ms";
@@ -47,17 +50,21 @@ body {background-color: #ccaabb
 
 
 /* this is by shalom */
-td:first-child{
-    color: #9d2a5c;
+td:first-child, .purple{
+    color: var(--color);
 }
 
-/* this is by shalom */
+/* class 'total' only points on the last row of the table */
 td.total{
     color: black;
 }
 
-/* this is by shalom */
+/* box the images */
 .box{
     align-items: center;
     justify-content: center;
+}
+
+input, textarea, button{
+    margin: 5pt;
 }
