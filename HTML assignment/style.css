@@ -1,0 +1,63 @@
+h1, h2, h3, h4, h5, form
+{
+font-family: "comic sans ms";
+color: white;
+font-style: italic;
+}
+
+table
+{
+background-color:white;
+font-family: "comic sans ms";
+margin-right: auto;
+margin-left: auto;
+text-align: left; 
+word-spacing: normal;
+width: 70%;
+}
+
+p,li,th,td
+{
+font-family: "comic sans ms";
+color: black;
+text-align: left; 
+word-spacing: normal;
+}
+
+hr
+{
+color:white
+}
+
+iframe
+{
+margin: 0;
+padding: 0;
+border: none;
+width: value;
+height: value;
+}
+a:link {font-family: "comic sans ms" ; color:white}
+a:visited  {color:white}
+a:active   {color:yellow}
+a:hover    {color:red}
+
+body {background-color: #ccaabb
+}
+
+
+/* this is by shalom */
+td:first-child{
+    color: #9d2a5c;
+}
+
+/* this is by shalom */
+td.total{
+    color: black;
+}
+
+/* this is by shalom */
+.box{
+    align-items: center;
+    justify-content: center;
+}
