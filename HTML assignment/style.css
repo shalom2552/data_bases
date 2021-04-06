@@ -49,13 +49,13 @@ body {background-color: #ccaabb
 }
 
 
-/* this is by shalom */
+/* color */
 td:first-child, .purple{
     color: var(--color);
 }
 
-/* class 'total' only points on the last row of the table */
-td.total{
+/* black and span the last row of the table */
+td:last-child{
     color: black;
 }
 
